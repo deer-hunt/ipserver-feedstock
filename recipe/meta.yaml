@@ -25,6 +25,11 @@ requirements:
   run:
     - python >={{ python_min }}
 
+    - multipart
+
+    - python <3.8
+    - multipart ==1.1.0
+
 test:
   imports:
     - ipserver
