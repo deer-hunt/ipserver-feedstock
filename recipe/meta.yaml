@@ -1,6 +1,6 @@
 {% set name = "ipserver" %}
 {% set version = "1.0.1" %}
-{% set python_min = "3.6" %}
+{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -29,9 +29,6 @@ requirements:
 
     - python <3.8
     - multipart ==1.0.0
-
-    - python <3.7
-    - multipart ==0.2.5
 
 test:
   imports:
